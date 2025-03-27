@@ -8,7 +8,7 @@ Sample workflow:
 - Update paths in the PowerShell script and Gaffer scene to match your system.
 - Tile a 1920x1080 image using tile_v3.ps1.
 - Upscale the image in upscale_v3.gfr (might take an hour or more).
-- Assemble the resulting tiles in the Contact Sheet and save the resulting 8K image to disk.
+- Assemble the resulting tiles in the Contact Sheet and save the final 8K image to disk.
 
 ### First Release
 
