@@ -3,9 +3,9 @@
 # You'll need to run this script from that folder, or add it to your PATH.
 
 $sourceFile = "C:\onedrive\main_projects\render\commercial\butterfly\close_03.jpg"
+
 $resX = 1920
 $resY = 1080
-
 $increment = 2
 $tile = 1
 $sizeX = 192
