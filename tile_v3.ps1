@@ -1,11 +1,15 @@
+# This script uses oiiotool to tile the input image.
+# Gaffer comes with a version of oiiotool in its /bin folder.
+# You'll need to run this script from that folder, or add it to your PATH.
+
+$sourceFile = "C:\onedrive\main_projects\render\commercial\butterfly\close_03.jpg"
+$resX = 1920
+$resY = 1080
+
 $increment = 2
 $tile = 1
 $sizeX = 192
 $sizeY = 108
-$sourceFile = "C:\onedrive\main_projects\render\commercial\butterfly\close_03.jpg"
-
-$resX = 1920
-$resY = 1080
 
 $rowCount = [Math]::Floor($resY / $sizeY) + 1
 $colCount = [Math]::Floor($resX / $sizeX) + 1
