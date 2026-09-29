@@ -3,7 +3,7 @@
 Sample workflow:
 
 - Download *4xNomos2_hq_dat2_fp32.onnx* from https://github.com/Phhofm/models/releases/tag/4xNomos2_hq_dat2
-- Update paths in the PowerShell script and Gaffer scene to match your system. Update Gafffer OCIO colorspaces as needed.
+- Update paths in the PowerShell script and Gaffer scene to match your system. Update Gaffer OCIO colorspaces as needed.
 - Tile a 1920x1080 image using *tile_v3.ps1*. Make sure you set it up so the script can find Gaffer's *oiiotool.exe*.
 - Upscale the tiles using *upscale_v3.gfr*. If using GPU it should only take a few minutes at most.
 - Assemble the resulting tiles in the Contact Sheet and save the final 8K image to disk.
